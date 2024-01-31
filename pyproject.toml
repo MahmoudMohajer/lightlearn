@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "lightlearn"
+version = "0.1.0"
+description = "It is a simple deep learning framework for learning how deep learning works under the hood"
+authors = ["Mahmoud Mohajer <mahmohajer3@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+ipykernel = "^6.29.0"
+pandas = "^2.2.0"
+pyarrow = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
